@@ -1,0 +1,124 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.icon {
+  color: #030303;
+  fill: #030303;
+  font-size: 24px;
+  width: 24px;
+  height: 32px;
+}
+
+.text {
+  font-family: "Lexend Deca";
+  line-height: 24px;
+}
+
+// Stock Predictor Layout
+.text.stockPredictor {
+  color: #030303;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.text.stockTicker {
+  color: #030303;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+// Timeframe layout
+.text.timeframe {
+  color: #030303;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+// Layout of Price Display
+.text.predictedPrice {
+  color: #030303;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+// Growth Percentage Layout
+.text.growth {
+  color: #030303;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text.analysisTitle {
+  color: #030303;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text.analysisDescription {
+  color: #545454;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.input {
+  width: 1376px;
+  height: 26px;
+  padding: 0px 8px;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #94a3b8;
+  font-size: 13px;
+  line-height: 26px;
+  outline: none;
+}
+
+.button {
+  cursor: pointer;
+  width: 1376px;
+  height: 48px;
+  padding: 0px 8px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #5664f5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  outline: none;
+}
+
+.container {
+  position: relative;
+  width: 1376px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 60%;
+  height: 4px;
+  background-color: rgba(86, 100, 245, 1);
+  border-radius: 10px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.image {
+  width: 1376px;
+  height: 300px;
+  border-radius: 8px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
